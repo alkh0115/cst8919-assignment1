@@ -1,0 +1,15 @@
+# Virtual environment
+.venv/
+
+# Auth0 secrets
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+
+# VS Code workspace
+.vscode/
+
+# Azurite local storage
+__azurite_db_*/ 
