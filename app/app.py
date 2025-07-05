@@ -14,6 +14,7 @@ if ENV_FILE:
     load_dotenv(ENV_FILE)
 
 app = Flask(__name__)
+app.config['PREFERRED_URL_SCHEME'] = 'https'
 app.logger.setLevel(logging.INFO)
 app.secret_key = env.get("APP_SECRET_KEY")
 
